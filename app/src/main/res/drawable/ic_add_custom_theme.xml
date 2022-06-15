@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_baseline_color_lens_twotone_48" />
+    <item
+        android:width="30dp"
+        android:height="30dp"
+        android:drawable="@drawable/ic_baseline_add_48"
+        android:gravity="right|bottom" />
+</layer-list>

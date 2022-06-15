@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">PSU Sensor</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- main activity -->
+    <string name="device_overload">喂你顯卡要燒了</string>
+    <string name="phone_offline">您的手機離線中\n請連上網路以使用 PSU Sensor</string>
+
+    <!-- drawer -->
+    <string name="menu_home">首頁</string>
+    <string name="menu_power_sensor">用電監測</string>
+    <string name="menu_instant_power_curve">即時用電曲線</string>
+    <string name="menu_monthly_electricity_bill">每月電費分析</string>
+    <string name="menu_screen_display_settings">螢幕顯示設定</string>
+    <string name="menu_theme_selection">主題選擇</string>
+    <string name="menu_custom_gif">自定義GIF</string>
+    <string name="menu_other_settings">其他設定</string>
+    <string name="menu_reset_wifi_connection">重新設定 Wi-Fi 連線</string>
+    <string name="menu_troubleshooting">疑難排解</string>
+    <string name="menu_languages">語言</string>
+
+    <!-- hello page -->
+    <string name="hello_message">Hi! 歡迎使用 PSU Sensor</string>
+    <string name="start_now">現在開始</string>
+
+    <!-- set wifi page -->
+    <string name="skip_wifi_settings">要跳過 Wi-Fi 設定嗎？\n(您之後可以在\n「重新設定 Wi-Fi 連線」\n頁面中設定 Wi-Fi)</string>
+    
+    <!-- get permission page -->
+    <string name="request_permission">在開始之前，\n我們需要您提供一些幫助</string>
+    <string name="allow_permission">允許權限</string>
+    <string name="allow_permission_warning">請允許使用藍芽，否則將無法進行WiFi設定</string>
+
+    <!-- enable bluetooth page -->
+    <string name="please_turn_on_bluetooth">請將手機的藍芽開啟</string>
+    <string name="turn_on_bluetooth">開啟藍芽</string>
+
+    <!-- bluetooth connecting page -->
+    <string name="keep_bluetooth_enable">過程中請勿關閉藍芽</string>
+    <string name="finding_device">正在尋找 PSU Sensor..</string>
+    <string name="connecting_to_device">正在連線到 PSU Sensor..</string>
+
+    <!-- data transfer page -->
+    <string name="socket_is_null">未知錯誤：BluetoothSocket is null</string>
+    <string name="input_wifi_data">請輸入Wi-Fi的連線資訊\n(若沒有密碼則密碼免填)</string>
+    <string name="wifi_hint">為何需要 Wi-Fi？\n因為 PSU Sensor 需要上傳功率資料\n以供手機 App 讀取</string>
+    <string name="wifi_name">網路名稱</string>
+    <string name="input_ssid">輸入 SSID</string>
+    <string name="password">密碼</string>
+    <string name="send">送出</string>
+    <string name="waiting_for_device">正在等待 PSU Sensor 連線到 Wi-Fi..</string>
+    <string name="invalid_response">未知錯誤：invalid response</string>
+    <string name="wrong_wifi_data">PSU Sensor 無法連接到網路，請確認網路名稱和密碼無誤後再試一次</string>
+
+    <!-- setting finished page -->
+    <string name="wifi_setting_finished">Wi-Fi 設定完成</string>
+    <string name="wifi_setting_finished_sub">您可以使用 PSU Sensor 的完整功能了</string>
+    <string name="back_home">回首頁</string>
+    <string name="query_disable_bluetooth">是否要關閉藍芽以省電？</string>
+    <string name="remind_disable_bluetooth">記得關閉藍芽以省電喔\n（&lt;ゝω・）☆ — </string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="ok">好的</string>
+    <string name="permission_denied">未知錯誤：permission denied</string>
+    
+    <!-- main page -->
+    <string name="computer_state_default">電腦狀態：未知</string>
+    <string name="computer_state_offline">電腦狀態：關機</string>
+    <string name="computer_state_online">電腦狀態：開機中</string>
+
+    <!-- home page -->
+    <string name="voltage_default">電腦關機</string>
+    <string name="current_default">電腦關機</string>
+    <string name="voltage">%.2fV</string>
+    <string name="current">%.2fA</string>
+    <string name="theme_name_default">主題</string>
+    <string name="reset_wifi_connection">重新設定\nWi-Fi 連線</string>
+
+    <!-- instant power curve page -->
+    <string name="last_30s_power">近30秒功率</string>
+    <string name="daily_power_usage">當日用電量</string>
+    <string name="select_date">選擇日期</string>
+    <string name="date_default">1970年 01月 01日</string>
+    <string name="date">%04d年 %02d月 %02d日</string>
+    <string name="set_power_limit">設定功率上限</string>
+    <string name="current_power_limit_default">目前功率上限：沒有上限</string>
+    <string name="current_power_limit">目前功率上限：%d W</string>
+    <string name="power_limit">功率上限</string>
+    <string name="watt_int">%dW</string>
+    <string name="watt_string">%sW</string>
+
+    <!-- monthly electricity bill page -->
+    <string name="odd_month_electricity_bill">單數月電費</string>
+    <string name="even_month_electricity_bill">雙數月電費</string>
+    <string name="select_year">選擇年份</string>
+
+    <!-- custom gif page -->
+    <string name="select_gif">選擇 GIF\n檔案大小限制：1MB</string>
+    <string name="size_too_big">檔案過大：%.2fMB</string>
+    <string name="device_offline">PSU Sensor 離線中，無法上傳</string>
+    <string name="device_downloading">PSU Sensor 正在下載 GIF，請稍後再上傳</string>
+    <string name="upload">上傳</string>
+    <string name="upload_with_mb">上傳 %.2fMB</string>
+    <string name="upload_with_kb">上傳 %dKB</string>
+    <string name="upload_success">上傳成功</string>
+    <string name="upload_failed">上傳失敗，請再試一次</string>
+    <string name="upload_canceled">上傳被取消</string>
+    <string name="upload_unknown">未知錯誤：unknown upload result</string>
+
+    <!-- theme selection page -->
+    <string name="power_default">電壓：0.00V\n電流：0.00A</string>
+    <string name="theme_name">主題名稱</string>
+    <string name="add_custom_theme">自訂主題</string>
+    <string name="custom_theme_name">自訂主題%d</string>
+    <string name="text_example">文字範例\nText Example</string>
+    <string name="color_text_default">#FFFFFF</string>
+    <string name="icon_name_default">選擇圖示</string>
+    <string name="confirm">確認</string>
+    <string name="add">新增</string>
+    <string name="cancel">取消</string>
+    <string name="edit">修改</string>
+    <string name="delete">刪除</string>
+    <string name="confirm_delete">確定要刪除嗎？</string>
+    <string name="select_led_color">選擇LED顏色</string>
+    <string name="select_text_color">選擇文字顏色</string>
+    <string name="select_background_color">選擇背景顏色</string>
+    <string name="select_color">選擇顏色</string>
+    <string name="select_icon">選擇圖示</string>
+    <string name="theme_classic">經典</string>
+    <string name="theme_black_and_white">黑白</string>
+    <string name="theme_hacker">駭客風</string>
+
+    <!-- reset wifi page -->
+    <string name="reset_wifi_hint">電腦開了卻收不到數據嗎？</string>
+    <string name="reset_wifi">重新設定 Wi-Fi</string>
+
+    <!-- content description-->
+    <string name="graphics_card_description">示意圖片</string>
+    <string name="theme_photo_description">主題圖片</string>
+    <string name="gif_preview_description">gif預覽</string>
+    <string name="icon_preview_description">圖示預覽</string>
+    <string name="turn_on_bluetooth_description">開啟藍芽</string>
+    <string name="skip_wifi_settings_description">跳過 Wi-Fi 設定</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

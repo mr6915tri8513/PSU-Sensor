@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".drawer.theme_selection.ThemeSelectionPage">
+
+    <View
+        android:id="@+id/background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/background"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintTop_toTopOf="@id/graphics_card_img"
+        app:layout_constraintStart_toStartOf="@id/graphics_card_img"
+        app:layout_constraintEnd_toEndOf="@id/graphics_card_img"
+        app:layout_constraintBottom_toBottomOf="@id/graphics_card_img"/>
+
+    <ImageView
+        android:id="@+id/graphics_card_img"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/prototype"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="@string/graphics_card_description"
+        android:adjustViewBounds="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/theme_list_rv"/>
+
+    <View
+        android:id="@+id/led"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0.8"
+        android:background="@drawable/led_light"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintStart_toStartOf="@id/graphics_card_img"
+        app:layout_constraintEnd_toEndOf="@id/graphics_card_img"
+        app:layout_constraintTop_toTopOf="@id/graphics_card_img"
+        app:layout_constraintBottom_toBottomOf="@id/graphics_card_img" />
+
+    <TextView
+        android:id="@+id/power_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/power_default"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintVertical_bias="0.62"
+        app:layout_constraintStart_toStartOf="@id/graphics_card_img"
+        app:layout_constraintEnd_toEndOf="@id/graphics_card_img"
+        app:layout_constraintTop_toTopOf="@id/graphics_card_img"
+        app:layout_constraintBottom_toBottomOf="@id/graphics_card_img"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/theme_list_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

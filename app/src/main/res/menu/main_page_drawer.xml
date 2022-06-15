@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/menu_power_sensor">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/instant_power_curve_page"
+                    android:icon="@drawable/ic_baseline_timeline_48"
+                    android:title="@string/menu_instant_power_curve" />
+                <item
+                    android:id="@+id/monthly_electricity_bill_page"
+                    android:icon="@drawable/ic_baseline_attach_money_48"
+                    android:title="@string/menu_monthly_electricity_bill" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_screen_display_settings">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/theme_selection_page"
+                    android:icon="@drawable/ic_baseline_color_lens_48"
+                    android:title="@string/menu_theme_selection" />
+                <item
+                    android:id="@+id/custom_gif_page"
+                    android:icon="@drawable/ic_gif"
+                    android:title="@string/menu_custom_gif" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_other_settings">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/reset_wifi_connection_page"
+                    android:icon="@drawable/ic_baseline_wifi_48"
+                    android:title="@string/menu_reset_wifi_connection" />
+                <item
+                    android:id="@+id/troubleshooting_page"
+                    android:icon="@drawable/ic_baseline_help_48"
+                    android:title="@string/menu_troubleshooting" />
+                <item
+                    android:id="@+id/languages_page"
+                    android:icon="@drawable/ic_baseline_language_48"
+                    android:title="@string/menu_languages" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

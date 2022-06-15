@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:id="@+id/custom_theme_container">
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/theme_name"
+        android:text="@string/theme_name"
+        android:inputType="text"
+        android:autofillHints="none"
+        android:lines="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <View
+        android:id="@+id/led"
+        android:layout_width="@dimen/preview_image_size"
+        android:layout_height="@dimen/preview_image_size"
+        android:background="@drawable/add_custom_theme_led"
+        app:layout_constraintTop_toBottomOf="@id/name_et"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    
+    <View
+        android:id="@+id/background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="30dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toTopOf="@id/led"
+        app:layout_constraintStart_toStartOf="@id/led"
+        app:layout_constraintEnd_toEndOf="@id/led"
+        app:layout_constraintBottom_toBottomOf="@id/led"/>
+    
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_example"
+        android:textColor="@color/blue"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="@id/led"
+        app:layout_constraintStart_toStartOf="@id/led"
+        app:layout_constraintEnd_toEndOf="@id/led"
+        app:layout_constraintBottom_toBottomOf="@id/led"/>
+
+    <Button
+        android:id="@+id/led_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/select_led_color"
+        app:layout_constraintStart_toStartOf="@id/text_btn"
+        app:layout_constraintEnd_toEndOf="@id/text_btn"
+        app:layout_constraintTop_toBottomOf="@id/led" />
+    
+    <TextView
+        android:id="@+id/led_color_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/color_text_default"
+        android:textSize="@dimen/category_name"
+        android:textColor="@color/text_color"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toTopOf="@id/led_btn"
+        app:layout_constraintBottom_toBottomOf="@id/led_btn"
+        app:layout_constraintStart_toEndOf="@id/led_btn"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/text_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_text_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/led_btn" />
+
+    <TextView
+        android:id="@+id/text_color_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/color_text_default"
+        android:textSize="@dimen/category_name"
+        android:textColor="@color/text_color"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toTopOf="@id/text_btn"
+        app:layout_constraintBottom_toBottomOf="@id/text_btn"
+        app:layout_constraintStart_toEndOf="@id/text_btn"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    
+    <Button
+        android:id="@+id/background_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_background_color"
+        app:layout_constraintStart_toStartOf="@id/text_btn"
+        app:layout_constraintEnd_toEndOf="@id/text_btn"
+        app:layout_constraintTop_toBottomOf="@id/text_btn" />
+
+    <TextView
+        android:id="@+id/background_color_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/color_text_default"
+        android:textSize="@dimen/category_name"
+        android:textColor="@color/text_color"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toTopOf="@id/background_btn"
+        app:layout_constraintBottom_toBottomOf="@id/background_btn"
+        app:layout_constraintStart_toEndOf="@id/background_btn"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/select_icon_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/icon_name_default"
+        android:textSize="@dimen/category_name"
+        android:textColor="@color/text_color"
+        app:layout_constraintStart_toStartOf="@id/icon_img"
+        app:layout_constraintEnd_toEndOf="@id/icon_img"
+        app:layout_constraintTop_toTopOf="@id/icon_img"
+        app:layout_constraintBottom_toBottomOf="@id/icon_img"/>
+
+    <ImageView
+        android:id="@+id/icon_img"
+        android:layout_width="@dimen/preview_image_size"
+        android:layout_height="@dimen/preview_image_size"
+        android:contentDescription="@string/icon_preview_description"
+        app:layout_constraintTop_toBottomOf="@id/background_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

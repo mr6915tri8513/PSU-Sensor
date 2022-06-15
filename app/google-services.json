@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "255432819524",
+    "firebase_url": "https://psu-sensor-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "psu-sensor",
+    "storage_bucket": "psu-sensor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255432819524:android:03b0be1d5e55a1b0bb8d11",
+        "android_client_info": {
+          "package_name": "com.example.psu_sensor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255432819524-6tbl2hpf0gg0kksibnhrmm2b6r9s3kkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnz_7voScZNZr8NG72evhgboL1M9VdPL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255432819524-6tbl2hpf0gg0kksibnhrmm2b6r9s3kkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255432819524:android:db15b1fbd9260cbdbb8d11",
+        "android_client_info": {
+          "package_name": "com.example.psusensor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255432819524-6tbl2hpf0gg0kksibnhrmm2b6r9s3kkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnz_7voScZNZr8NG72evhgboL1M9VdPL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255432819524-6tbl2hpf0gg0kksibnhrmm2b6r9s3kkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
