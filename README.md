@@ -1,8 +1,8 @@
-<font color="red">unfinished</font>
+## unfinished
 
 This project is for a competition in my school. The concept and the title were conceived by the other team member, while I was in charge of the app.
 
-P.S. My partner hasn't had a github account yet, so I can't add him as a contributor. (´;︵;`)11
+P.S. My partner hasn't had a github account yet, so I can't add him as a contributor. (´;︵;`)
 
 ## Summary
 It has two parts: **the app** on the phone and **PSU Sensor** (the one in the box)
