@@ -1,5 +1,7 @@
 ## unfinished
 
+Read this in other languages: [中文-繁體](README.zh-tw.md)
+
 This project is for a competition in my school. The concept and the title were conceived by the other team member, while I was in charge of the app.
 
 P.S. My partner hasn't had a github account yet, so I can't add him as a contributor. (´;︵;`)
@@ -14,7 +16,7 @@ After installing PSU Sensor in the place where it should be installed, setting u
 
 ## Primary Functions
 ### Realtime Power Curve
-* monitor the energy comsuption of your computer instantly
+* monitor the energy consumption of your computer instantly
 
 <img src="image/realtime_power_curve.png" height="592" width="288">
 
