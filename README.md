@@ -1,4 +1,4 @@
-## unfinished
+## Update Stopped
 
 Read this in other languages: [中文-繁體](README.zh-tw.md)
 
